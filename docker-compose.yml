@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  subtitle-server:
+    image: talicdavor/stremio-kodi-subtitle-server:latest
+    container_name: subtitle-server
+    ports:
+      - '8080:8080'
+    environment:
+      - ENV_VAR_NAME=value
+    restart: unless-stopped
