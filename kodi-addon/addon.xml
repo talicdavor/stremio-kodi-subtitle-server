@@ -1,0 +1,9 @@
+<addon>
+    <id>your.addon.id</id>
+    <version>21.2</version>
+    <name>Your Addon Name</name>
+    <description>Your Addon Description</description>
+    <platform>Kodi</platform>
+    <copyright>Your Copyright</copyright>
+    <license>Your License</license>
+</addon>
